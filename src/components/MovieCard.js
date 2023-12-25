@@ -1,7 +1,7 @@
 import React from "react";
 import "./MovieCard.css";
 
-function MovieCard({ imgURL, title, rating, release, genres }) {
+function MovieCard({ imgURL, title, rating, release, description }) {
   return (
     <div className="MovieCard">
       <div className="card">
@@ -9,7 +9,7 @@ function MovieCard({ imgURL, title, rating, release, genres }) {
           <img src={imgURL} alt="Movie Poster" width={"100%"} />
           <div className="releaseDate">
             <p>Release Date: {release}</p>
-            <p>{genres}</p>
+            <p>{description}</p>
           </div>
         </div>
         <div className="cardBody">
@@ -35,6 +35,6 @@ MovieCard.defaultProps = {
   title: "Unavailable title",
   genres: "Unavailable",
   release: "Unavailable",
-  genres: "Unavailable genres",
+  description: "Unavailable description",
 };
 export default MovieCard;

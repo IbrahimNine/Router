@@ -51,19 +51,20 @@ function NewMovieForm({ toggleShow, additionHandler, newData, setNewData }) {
               })
             }
           />
-          <label htmlFor="genres">Genre(s): (Optional)</label>
-          <input
+          <label htmlFor="description">Description:</label>
+          <textarea
+            rows={5}
             type="text"
-            id="genres"
-            placeholder="Genres are separated by slashes.."
-            value={newData.genres}
+            id="description"
+            placeholder="Description.."
+            value={newData.description}
             onChange={(e) =>
               setNewData({
                 ...newData,
-                genres: e.target.value || "Unavailable genres",
+                description: e.target.value,
               })
             }
-          />
+          required/>
           <div className="addBtn">
             <button type="Submit">Add</button>
           </div>

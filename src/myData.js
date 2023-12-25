@@ -6,7 +6,7 @@ export const myObject = [
     title: "It Follows",
     rating: 6.8,
     release: "2015-03-13",
-    genres: "Horror",
+    description: "Supernatural force haunts, spreading fear and suspense.",
   },
   {
     id: 1,
@@ -15,7 +15,7 @@ export const myObject = [
     title: "The Witch",
     rating: 6.9,
     release: "2015-01-27",
-    genres: "Horror/Mystery",
+    description: "1630s New England, family battles sinister witchcraft.",
   },
   {
     id: 2,
@@ -24,7 +24,7 @@ export const myObject = [
     title: "The Pursuit of Happyness",
     rating: 8.0,
     release: "2006-12-15",
-    genres: "Biography/Drama",
+    description: "True story: Will Smith faces homelessness, pursues success.",
   },
   {
     id: 3,
@@ -33,7 +33,8 @@ export const myObject = [
     title: "A Beautiful Mind",
     rating: 8.2,
     release: "2001-12-21",
-    genres: "Biography/Drama",
+    description:
+      "Russell Crowe excels, battling schizophrenia, achieving mathematical greatness.",
   },
   {
     id: 4,
@@ -42,7 +43,8 @@ export const myObject = [
     title: "The Social Network",
     rating: 7.7,
     release: "2010-10-01",
-    genres: "Biography/Drama",
+    description:
+      "Facebook's turbulent creation, friendship complexities revealed.",
   },
   {
     id: 5,
@@ -51,7 +53,7 @@ export const myObject = [
     title: "The King's Speech",
     rating: 8.0,
     release: "2010-12-25",
-    genres: "Biography/Drama/History",
+    description: "King George VI overcomes speech impediment, WWII backdrop.",
   },
   {
     id: 6,
@@ -60,7 +62,7 @@ export const myObject = [
     title: "12 Years a Slave",
     rating: 8.1,
     release: "2013-10-18",
-    genres: "Biography/Drama/History",
+    description: "Solomon Northup's true story, abducted into slavery.",
   },
   {
     id: 7,
@@ -69,7 +71,7 @@ export const myObject = [
     title: "Dallas Buyers Club",
     rating: 8.0,
     release: "2013-11-22",
-    genres: "Biography/Drama",
+    description: "McConaughey fights AIDS stigma, offers treatment.",
   },
   {
     id: 8,
@@ -77,7 +79,7 @@ export const myObject = [
     title: "Whiplash",
     rating: 8.5,
     release: "2014-10-10",
-    genres: "Drama/Music",
+    description: "Drummer's intense journey under demanding music instructor.",
   },
 
   {
@@ -87,7 +89,7 @@ export const myObject = [
     title: "The Godfather",
     rating: 9.2,
     release: "1972-03-24",
-    genres: "Crime/Drama",
+    description: "Corleone family's saga in post-WWII organized crime.",
   },
   {
     id: 10,
@@ -96,7 +98,7 @@ export const myObject = [
     title: "Avatar",
     rating: 7.8,
     release: "2009-12-18",
-    genres: "Action/Adventure/Sci-Fi",
+    description: "Visually stunning sci-fi adventure on alien planet.",
   },
   {
     id: 11,
@@ -105,7 +107,7 @@ export const myObject = [
     title: "Forrest Gump",
     rating: 8.8,
     release: "1994-07-06",
-    genres: "Drama/Romance",
+    description: "Tom Hanks' iconic journey through American history.",
   },
   {
     id: 12,
@@ -114,7 +116,7 @@ export const myObject = [
     title: "The Matrix",
     rating: 8.7,
     release: "1999-03-31",
-    genres: "Action/Sci-Fi",
+    description: "Neo's mind-bending quest against artificial intelligence.",
   },
   {
     id: 13,
@@ -123,7 +125,7 @@ export const myObject = [
     title: "The Shining",
     rating: 8.4,
     release: "1980-05-23",
-    genres: "Drama/Horror",
+    description: "Kubrick's chilling masterpiece, haunted hotel horror.",
   },
   {
     id: 14,
@@ -131,7 +133,7 @@ export const myObject = [
     title: "The Dark Knight",
     rating: 9.0,
     release: "2008-07-18",
-    genres: "Action/Crime/Drama",
+    description: "Batman faces Joker's chaos in Gotham City.",
   },
   {
     id: 15,
@@ -140,7 +142,7 @@ export const myObject = [
     title: "Inception",
     rating: 8.8,
     release: "2010-07-16",
-    genres: "Action/Sci-Fi/Thriller",
+    description: "Mind-bending heist in dreams within dreams.",
   },
   {
     id: 16,
@@ -149,7 +151,7 @@ export const myObject = [
     title: "Pulp Fiction",
     rating: 8.9,
     release: "1994-10-14",
-    genres: "Crime, Drama",
+    description: "Tarantino's nonlinear narrative of crime and redemption.",
   },
   {
     id: 17,
@@ -158,7 +160,8 @@ export const myObject = [
     title: "Jurassic Park",
     rating: 8.1,
     release: "1993-06-11",
-    genres: "Action/Adventure/Sci-Fi",
+    description:
+      "Spielberg's thrilling adventure with cloned dinosaurs unleashed.",
   },
   {
     id: 18,
@@ -167,7 +170,7 @@ export const myObject = [
     title: "The Grand Budapest Hotel",
     rating: 8.1,
     release: "2014-03-07",
-    genres: "Adventure/Comedy/Crime",
+    description: "Quirky Wes Anderson comedy in a luxurious hotel.",
   },
   {
     id: 19,
@@ -176,7 +179,7 @@ export const myObject = [
     title: "The Shawshank Redemption",
     rating: 9.3,
     release: "1994-09-23",
-    genres: "Drama",
+    description: "Andy Dufresne's transformative journey in Shawshank prison.",
   },
   {
     id: 20,
@@ -185,7 +188,8 @@ export const myObject = [
     title: "The Silence of the Lambs",
     rating: 8.6,
     release: "1991-02-14",
-    genres: "Crime/Drama/Thriller",
+    description:
+      "Clarice Starling hunts serial killer with Hannibal Lecter's help.",
   },
   {
     id: 21,
@@ -194,7 +198,7 @@ export const myObject = [
     title: "Schindler's List",
     rating: 8.9,
     release: "1993-12-15",
-    genres: "Biography/Drama/History",
+    description: "Spielberg's powerful portrayal of Holocaust heroism.",
   },
   {
     id: 22,
@@ -202,7 +206,7 @@ export const myObject = [
     title: "Gladiator",
     rating: 8.5,
     release: "2000-05-05",
-    genres: "Action/Adventure/Drama",
+    description: "Russell Crowe's epic journey in Roman coliseum.",
   },
   {
     id: 23,
@@ -211,7 +215,7 @@ export const myObject = [
     title: "The Departed",
     rating: 8.5,
     release: "2006-10-06",
-    genres: "Crime/Drama/Thriller",
+    description: "Scorsese's intense crime drama with undercover agents.",
   },
   {
     id: 24,
@@ -220,7 +224,7 @@ export const myObject = [
     title: "Fight Club",
     rating: 8.8,
     release: "1999-10-15",
-    genres: "Drama",
+    description: "Ed Norton and Brad Pitt lead anarchic underground club.",
   },
   {
     id: 25,
@@ -229,7 +233,7 @@ export const myObject = [
     title: "Psycho",
     rating: 8.5,
     release: "1960-09-08",
-    genres: "Horror/Mystery/Thriller",
+    description: "Hitchcock's classic, shocking shower scene horror.",
   },
   {
     id: 26,
@@ -238,7 +242,7 @@ export const myObject = [
     title: "The Exorcist",
     rating: 8.0,
     release: "1973-12-26",
-    genres: "Horror",
+    description: "Terrifying battle between good and evil, demonic possession.",
   },
   {
     id: 27,
@@ -247,7 +251,7 @@ export const myObject = [
     title: "A Nightmare on Elm Street",
     rating: 7.5,
     release: "1984-11-09",
-    genres: "Horror",
+    description: "Freddy Krueger's haunting nightmares come to life.",
   },
   {
     id: 28,
@@ -256,7 +260,8 @@ export const myObject = [
     title: "The Conjuring",
     rating: 7.5,
     release: "2013-07-19",
-    genres: "Horror/Mystery/Thriller",
+    description:
+      "Paranormal investigators face chilling supernatural phenomena.",
   },
   {
     id: 29,
@@ -264,7 +269,7 @@ export const myObject = [
     title: "Hereditary",
     rating: 7.3,
     release: "2018-06-08",
-    genres: "Drama/Horror/Mystery",
+    description: "A family's dark secrets unravel, horror intensifies.",
   },
   {
     id: 30,
@@ -273,7 +278,7 @@ export const myObject = [
     title: "The Babadook",
     rating: 6.8,
     release: "2014-05-22",
-    genres: "Drama/Horror/Mystery",
+    description: "Mother and son terrorized by a sinister presence.",
   },
   {
     id: 31,
@@ -282,7 +287,7 @@ export const myObject = [
     title: "Little Miss Sunshine",
     rating: 7.8,
     release: "2006-07-26",
-    genres: "Comedy/Drama",
+    description: "Dysfunctional family embarks on a cross-country road trip.",
   },
   {
     id: 32,
@@ -290,7 +295,7 @@ export const myObject = [
     title: "La La Land",
     rating: 8.0,
     release: "2016-12-09",
-    genres: "Comedy/Musical/Romance",
+    description: "Musical romance explores dreams and aspirations.",
   },
   {
     id: 33,
@@ -299,7 +304,7 @@ export const myObject = [
     title: "Children of the Sea",
     rating: 6.5,
     release: "2019-06-07",
-    genres: "Animation/Adventure",
+    description: "Enchanting animated adventure with mystical sea creatures.",
   },
   {
     id: 34,
@@ -308,7 +313,8 @@ export const myObject = [
     title: "Your Name.",
     rating: 8.4,
     release: "2016-08-26",
-    genres: "Animation/Romance",
+    description:
+      "Star-crossed lovers swap bodies in beautifully animated tale.",
   },
   {
     id: 35,
@@ -317,7 +323,7 @@ export const myObject = [
     title: "Spirited away",
     rating: 8.6,
     release: "2001-07-20",
-    genres: "Animation/Adventure",
+    description: "Miyazaki's enchanting journey in a magical spirit world.",
   },
   {
     id: 36,
@@ -326,7 +332,7 @@ export const myObject = [
     title: "Ponyo",
     rating: 7.6,
     release: "2008-07-19",
-    genres: "Animation/Adventure",
+    description: "Delightful animated tale of a fish's magical transformation.",
   },
   {
     id: 37,
@@ -334,7 +340,8 @@ export const myObject = [
     title: "Howl's Moving Castle",
     rating: 8.2,
     release: "2004-11-20",
-    genres: "Animation/Adventure",
+    description:
+      "Miyazaki's whimsical adventure in a fantastical flying castle.",
   },
   {
     id: 38,
@@ -343,7 +350,8 @@ export const myObject = [
     title: "Weathering with You",
     rating: 7.5,
     release: "2020-01-20",
-    genres: "Animation/Romance",
+    description:
+      "Makoto Shinkai's visually stunning romance amid supernatural weather.",
   },
   {
     id: 39,
@@ -351,6 +359,7 @@ export const myObject = [
     title: "Wolf Children",
     rating: 8.1,
     release: "2012-06-25",
-    genres: "Animation/Fantasy",
+    description:
+      "A mother raises half-wolf children, navigating dual identities.",
   },
 ];

@@ -35,7 +35,7 @@
 .releaseDate p {
   width: 12.5rem;
   margin: 10px 0;
-  word-break: break-all;
+  text-wrap: wrap;
   text-align: center;
 }
 .cardBody {
@@ -62,7 +62,7 @@ abbr {
   all: unset;
 }
 .card:hover .releaseDate {
-  height: 90px;
+  height: 150px;
 }
 .card:hover .imgWrapper img {
   transform: scale(1.05);
