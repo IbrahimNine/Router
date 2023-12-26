@@ -37,6 +37,10 @@
   background-color: #303030;
   box-shadow: 0 0 8px 1px;
 }
+#movie-title:not(:focus),
+#movie-rating:not(:focus) {
+  color: dimgray;
+}
 @media screen and (max-width: 1200px) {
   .SearchBar{
     margin: 10px 160px;

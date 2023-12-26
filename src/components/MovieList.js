@@ -5,9 +5,9 @@ import MovieCard from "./MovieCard";
 function MovieList({ filteredMovies }) {
   return (
     <div className="MovieList">
-      {filteredMovies.map((movie) => (
+      {filteredMovies.toReversed().map((movie) => (
         <MovieCard key={movie.id} {...movie} />
-      ))}
+      ))} 
     </div>
   );
 }
