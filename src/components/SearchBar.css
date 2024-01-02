@@ -1,5 +1,4 @@
 .SearchBar {
-  /* border: 2px red solid; */
   max-width: 900px;
   margin: 100px auto;
   display: flex;
@@ -11,16 +10,17 @@
   top: 10px;
   z-index: 2;
 }
-#movie-title {
+
+.SearchBar #movie-title {
   all: unset;
   max-width: 400px;
 }
-#movie-rating {
+.SearchBar #movie-rating {
   max-width: 300px;
   border: none;
 }
-#movie-title,
-#movie-rating {
+.SearchBar #movie-title,
+.SearchBar #movie-rating {
   background-color: #212121;
   color: #080808;
   width: 100%;
@@ -30,20 +30,29 @@
   box-shadow: 0 0 15px, inset 0 0 5px rgba(0, 0, 0, 0.8);
   transition: background-color 0.5s, color 0.3s;
 }
-
-#movie-title:focus,
-#movie-rating:focus {
+.SearchBar #movie-title:focus,
+.SearchBar #movie-rating:focus {
   color: white;
   background-color: #303030;
   box-shadow: 0 0 8px 1px;
 }
-#movie-title:not(:focus),
-#movie-rating:not(:focus) {
+.SearchBar #movie-title:not(:focus),
+.SearchBar #movie-rating:not(:focus) {
   color: dimgray;
 }
 @media screen and (max-width: 1200px) {
-  .SearchBar{
+  .SearchBar {
     margin: 10px 160px;
     gap: 10px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .SearchBar {
+    top: 70px;
+    margin: 10px 25px;
+  }
+  .SearchBar #movie-title,
+  .SearchBar #movie-rating {
+    max-width: 120px;
   }
 }

@@ -24,3 +24,6 @@
   color: white;
   background-color: #303030;
 }
+.MovieList a {
+  text-decoration: none;
+}

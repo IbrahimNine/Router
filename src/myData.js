@@ -7,6 +7,7 @@ export const myObject = [
     rating: 6.8,
     release: "2015-03-13",
     description: "Supernatural force haunts, spreading fear and suspense.",
+    trailerURL: "https://www.youtube.com/embed/HkZYbOH0ujw",
   },
   {
     id: 1,
@@ -16,6 +17,7 @@ export const myObject = [
     rating: 6.9,
     release: "2015-01-27",
     description: "1630s New England, family battles sinister witchcraft.",
+    trailerURL: "https://www.youtube.com/embed/iQXmlf3Sefg",
   },
   {
     id: 2,
@@ -25,6 +27,7 @@ export const myObject = [
     rating: 8.0,
     release: "2006-12-15",
     description: "True story: Will Smith faces homelessness, pursues success.",
+    trailerURL: "https://www.youtube.com/embed/DMOBlEcRuw8",
   },
   {
     id: 3,
@@ -35,6 +38,7 @@ export const myObject = [
     release: "2001-12-21",
     description:
       "Russell Crowe excels, battling schizophrenia, achieving mathematical greatness.",
+    trailerURL: "https://www.youtube.com/embed/EajIlG_OCvw",
   },
   {
     id: 4,
@@ -45,6 +49,7 @@ export const myObject = [
     release: "2010-10-01",
     description:
       "Facebook's turbulent creation, friendship complexities revealed.",
+    trailerURL: "https://www.youtube.com/embed/lB95KLmpLR4",
   },
   {
     id: 5,
@@ -54,6 +59,7 @@ export const myObject = [
     rating: 8.0,
     release: "2010-12-25",
     description: "King George VI overcomes speech impediment, WWII backdrop.",
+    trailerURL: "https://www.youtube.com/embed/gSw6ei5tdbg",
   },
   {
     id: 6,
@@ -63,6 +69,7 @@ export const myObject = [
     rating: 8.1,
     release: "2013-10-18",
     description: "Solomon Northup's true story, abducted into slavery.",
+    trailerURL: "https://www.youtube.com/embed/z02Ie8wKKRg",
   },
   {
     id: 7,
@@ -72,6 +79,7 @@ export const myObject = [
     rating: 8.0,
     release: "2013-11-22",
     description: "McConaughey fights AIDS stigma, offers treatment.",
+    trailerURL: "https://www.youtube.com/embed/KDvPcBeOn8E",
   },
   {
     id: 8,
@@ -80,6 +88,7 @@ export const myObject = [
     rating: 8.5,
     release: "2014-10-10",
     description: "Drummer's intense journey under demanding music instructor.",
+    trailerURL: "https://www.youtube.com/embed/7d_jQycdQGo?si=iCdqm_2mhCP6yQTB",
   },
 
   {
@@ -90,6 +99,7 @@ export const myObject = [
     rating: 9.2,
     release: "1972-03-24",
     description: "Corleone family's saga in post-WWII organized crime.",
+    trailerURL: "https://www.youtube.com/embed/UaVTIH8mujA",
   },
   {
     id: 10,
@@ -99,6 +109,7 @@ export const myObject = [
     rating: 7.8,
     release: "2009-12-18",
     description: "Visually stunning sci-fi adventure on alien planet.",
+    trailerURL: "https://www.youtube.com/embed/5PSNL1qE6VY",
   },
   {
     id: 11,
@@ -108,6 +119,7 @@ export const myObject = [
     rating: 8.8,
     release: "1994-07-06",
     description: "Tom Hanks' iconic journey through American history.",
+    trailerURL: "https://www.youtube.com/embed/XHhAG-YLdk8",
   },
   {
     id: 12,
@@ -117,6 +129,7 @@ export const myObject = [
     rating: 8.7,
     release: "1999-03-31",
     description: "Neo's mind-bending quest against artificial intelligence.",
+    trailerURL: "https://www.youtube.com/embed/9ix7TUGVYIo",
   },
   {
     id: 13,
@@ -126,6 +139,7 @@ export const myObject = [
     rating: 8.4,
     release: "1980-05-23",
     description: "Kubrick's chilling masterpiece, haunted hotel horror.",
+    trailerURL: "https://www.youtube.com/embed/S014oGZiSdI",
   },
   {
     id: 14,
@@ -134,6 +148,7 @@ export const myObject = [
     rating: 9.0,
     release: "2008-07-18",
     description: "Batman faces Joker's chaos in Gotham City.",
+    trailerURL: "https://www.youtube.com/embed/EXeTwQWrcwY",
   },
   {
     id: 15,
@@ -143,6 +158,7 @@ export const myObject = [
     rating: 8.8,
     release: "2010-07-16",
     description: "Mind-bending heist in dreams within dreams.",
+    trailerURL: "https://www.youtube.com/embed/YoHD9XEInc0",
   },
   {
     id: 16,
@@ -152,6 +168,7 @@ export const myObject = [
     rating: 8.9,
     release: "1994-10-14",
     description: "Tarantino's nonlinear narrative of crime and redemption.",
+    trailerURL: "https://www.youtube.com/embed/5ZAhzsi1ybM",
   },
   {
     id: 17,
@@ -162,6 +179,7 @@ export const myObject = [
     release: "1993-06-11",
     description:
       "Spielberg's thrilling adventure with cloned dinosaurs unleashed.",
+    trailerURL: "https://www.youtube.com/embed/UinsNBOTNyU",
   },
   {
     id: 18,
@@ -171,6 +189,7 @@ export const myObject = [
     rating: 8.1,
     release: "2014-03-07",
     description: "Quirky Wes Anderson comedy in a luxurious hotel.",
+    trailerURL: "https://www.youtube.com/embed/1Fg5iWmQjwk",
   },
   {
     id: 19,
@@ -180,6 +199,7 @@ export const myObject = [
     rating: 9.3,
     release: "1994-09-23",
     description: "Andy Dufresne's transformative journey in Shawshank prison.",
+    trailerURL: "https://www.youtube.com/embed/PLl99DlL6b4",
   },
   {
     id: 20,
@@ -190,6 +210,7 @@ export const myObject = [
     release: "1991-02-14",
     description:
       "Clarice Starling hunts serial killer with Hannibal Lecter's help.",
+    trailerURL: "https://www.youtube.com/embed/mxphAlJID9U",
   },
   {
     id: 21,
@@ -199,6 +220,7 @@ export const myObject = [
     rating: 8.9,
     release: "1993-12-15",
     description: "Spielberg's powerful portrayal of Holocaust heroism.",
+    trailerURL: "https://www.youtube.com/embed/mxphAlJID9U?si=Zd0Ems2JhLTTOUK2",
   },
   {
     id: 22,
@@ -207,6 +229,7 @@ export const myObject = [
     rating: 8.5,
     release: "2000-05-05",
     description: "Russell Crowe's epic journey in Roman coliseum.",
+    trailerURL: "https://www.youtube.com/embed/P5ieIbInFpg",
   },
   {
     id: 23,
@@ -216,6 +239,7 @@ export const myObject = [
     rating: 8.5,
     release: "2006-10-06",
     description: "Scorsese's intense crime drama with undercover agents.",
+    trailerURL: "https://www.youtube.com/embed/iQpb1LoeVUc",
   },
   {
     id: 24,
@@ -225,6 +249,7 @@ export const myObject = [
     rating: 8.8,
     release: "1999-10-15",
     description: "Ed Norton and Brad Pitt lead anarchic underground club.",
+    trailerURL: "https://www.youtube.com/embed/qtRKdVHc-cE",
   },
   {
     id: 25,
@@ -234,6 +259,7 @@ export const myObject = [
     rating: 8.5,
     release: "1960-09-08",
     description: "Hitchcock's classic, shocking shower scene horror.",
+    trailerURL: "https://www.youtube.com/embed/DTJQfFQ40lI",
   },
   {
     id: 26,
@@ -243,6 +269,7 @@ export const myObject = [
     rating: 8.0,
     release: "1973-12-26",
     description: "Terrifying battle between good and evil, demonic possession.",
+    trailerURL: "https://www.youtube.com/embed/BU2eYAO31Cc",
   },
   {
     id: 27,
@@ -252,6 +279,7 @@ export const myObject = [
     rating: 7.5,
     release: "1984-11-09",
     description: "Freddy Krueger's haunting nightmares come to life.",
+    trailerURL: "https://www.youtube.com/embed/dCVh4lBfW-c",
   },
   {
     id: 28,
@@ -262,6 +290,7 @@ export const myObject = [
     release: "2013-07-19",
     description:
       "Paranormal investigators face chilling supernatural phenomena.",
+    trailerURL: "https://www.youtube.com/embed/ejMMn0t58Lc",
   },
   {
     id: 29,
@@ -270,6 +299,7 @@ export const myObject = [
     rating: 7.3,
     release: "2018-06-08",
     description: "A family's dark secrets unravel, horror intensifies.",
+    trailerURL: "https://www.youtube.com/embed/V6wWKNij_1M",
   },
   {
     id: 30,
@@ -279,6 +309,7 @@ export const myObject = [
     rating: 6.8,
     release: "2014-05-22",
     description: "Mother and son terrorized by a sinister presence.",
+    trailerURL: "https://www.youtube.com/embed/k5WQZzDRVtw",
   },
   {
     id: 31,
@@ -288,6 +319,7 @@ export const myObject = [
     rating: 7.8,
     release: "2006-07-26",
     description: "Dysfunctional family embarks on a cross-country road trip.",
+    trailerURL: "https://www.youtube.com/embed/bQ7BZTMLImA",
   },
   {
     id: 32,
@@ -296,6 +328,7 @@ export const myObject = [
     rating: 8.0,
     release: "2016-12-09",
     description: "Musical romance explores dreams and aspirations.",
+    trailerURL: "https://www.youtube.com/embed/0pdqf4P9MB8",
   },
   {
     id: 33,
@@ -305,6 +338,7 @@ export const myObject = [
     rating: 6.5,
     release: "2019-06-07",
     description: "Enchanting animated adventure with mystical sea creatures.",
+    trailerURL: "https://www.youtube.com/embed/7WL_4mwpZ0I",
   },
   {
     id: 34,
@@ -315,6 +349,7 @@ export const myObject = [
     release: "2016-08-26",
     description:
       "Star-crossed lovers swap bodies in beautifully animated tale.",
+    trailerURL: "https://www.youtube.com/embed/xU47nhruN-Q",
   },
   {
     id: 35,
@@ -324,6 +359,7 @@ export const myObject = [
     rating: 8.6,
     release: "2001-07-20",
     description: "Miyazaki's enchanting journey in a magical spirit world.",
+    trailerURL: "https://www.youtube.com/embed/fDUFP7EeXLE",
   },
   {
     id: 36,
@@ -333,6 +369,7 @@ export const myObject = [
     rating: 7.6,
     release: "2008-07-19",
     description: "Delightful animated tale of a fish's magical transformation.",
+    trailerURL: "https://www.youtube.com/embed/CsR3KVgBzSM",
   },
   {
     id: 37,
@@ -342,6 +379,7 @@ export const myObject = [
     release: "2004-11-20",
     description:
       "Miyazaki's whimsical adventure in a fantastical flying castle.",
+    trailerURL: "https://www.youtube.com/embed/iwROgK94zcM",
   },
   {
     id: 38,
@@ -352,6 +390,7 @@ export const myObject = [
     release: "2020-01-20",
     description:
       "Makoto Shinkai's visually stunning romance amid supernatural weather.",
+    trailerURL: "https://www.youtube.com/embed/Q6iK6DjV_iE",
   },
   {
     id: 39,
@@ -361,5 +400,6 @@ export const myObject = [
     release: "2012-06-25",
     description:
       "A mother raises half-wolf children, navigating dual identities.",
+    trailerURL: "https://www.youtube.com/embed/8xLji7WsW0w",
   },
 ];

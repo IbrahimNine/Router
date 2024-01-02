@@ -1,21 +1,21 @@
 import "./App.css";
-import React, { useState } from "react";
-import MovieList from "./components/MovieList";
-import Navbar from "./components/Navbar";
-import SearchBar from "./components/SearchBar";
+import React, { useState, createContext } from "react";
 import { myObject } from "./myData";
-import NewMovieForm from "./components/NewMovieForm";
-import AppFooter from "./components/AppFooter";
+import { Routes, Route } from "react-router-dom";
+import MainLayout from "./layouts/MainLayout";
+import SearchBar from "./components/SearchBar";
+import MovieList from "./components/MovieList";
+import Details from "./pages/Details";
+import NotFound from "./pages/NotFound";
+
+export const myVarContext = createContext();
 
 function App() {
   // State variables to manage user input and component visibility
   const [searchedTitle, setSearchedTitle] = useState("");
   const [searchedRating, setSearchedRating] = useState(0);
-  const [show, setShow] = useState(false);
-
   // State variable to manage movie data
   const [myData, setMyData] = useState(myObject);
-
   // State variable to manage new movie data
   const [newData, setNewData] = useState({});
 
@@ -23,22 +23,6 @@ function App() {
   const handlefilter = (title, rating) => {
     setSearchedTitle(title);
     setSearchedRating(rating);
-  };
-
-  // Function to toggle the visibility of the NewMovieForm component
-  const toggleShow = () => setShow(!show);
-
-  // Handler for adding new movie data to the existing list
-  const additionHandler = (newData) => {
-    setMyData([
-      ...myData,
-      {
-        id: myData.length + 1,
-        ...newData,
-      },
-    ]);
-    setNewData({});
-    toggleShow();
   };
 
   // Array containing movies filtered by title and rating
@@ -52,40 +36,34 @@ function App() {
     return titleMatch && ratingMatch;
   });
 
-  // Function to scroll to the top
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  };
-
-  // Attach the click event directly in the component
-  window.onscroll = () => {
-    // Show the button when scrolling down, hide it when at the top
-    const isVisible = window.scrollY > 300;
-    document.getElementById("scroll-to-top").style.display = isVisible
-      ? "block"
-      : "none";
-  };
-
   return (
     <div className="App">
-      <Navbar toggleShow={toggleShow} />
-      <SearchBar handleFilter={handlefilter} />
-      <MovieList filteredMovies={filteredData} />
-      {show && (
-        <NewMovieForm
-          toggleShow={toggleShow}
-          additionHandler={additionHandler}
-          newData={newData}
-          setNewData={setNewData}
-        />
-      )}
-      <button id="scroll-to-top" onClick={scrollToTop}>
-        Top
-      </button>
-      <AppFooter />
+      <myVarContext.Provider
+        value={{
+          myData,
+          setMyData,
+          newData,
+          setNewData,
+          handlefilter,
+          filteredData,
+        }}
+      >
+        <Routes>
+          <Route path="/" element={<MainLayout />}>
+            <Route
+              index
+              element={
+                <>
+                  <SearchBar />
+                  <MovieList />
+                </>
+              }
+            />
+            <Route path="details/:id" element={<Details />} />
+            <Route path="*" element={<NotFound />} />
+          </Route>
+        </Routes>
+      </myVarContext.Provider>
     </div>
   );
 }

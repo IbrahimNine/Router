@@ -1,7 +1,9 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import "./SearchBar.css";
+import { myVarContext } from "../App";
 
-function SearchBar({ handleFilter }) {
+function SearchBar() {
+  const { handlefilter } = useContext(myVarContext);
   // State variables to manage user input for title and rating
   const [title, setTitle] = useState("");
   const [rating, setRating] = useState("");
@@ -9,13 +11,13 @@ function SearchBar({ handleFilter }) {
   // Handler for changes in the movie title input
   const handleTitleChange = (event) => {
     setTitle(event.target.value);
-    handleFilter(event.target.value, rating);
+    handlefilter(event.target.value, rating);
   };
 
   // Handler for changes in the movie rating select input
   const handleRatingChange = (event) => {
     setRating(event.target.value);
-    handleFilter(title, event.target.value);
+    handlefilter(title, event.target.value);
   };
 
   return (

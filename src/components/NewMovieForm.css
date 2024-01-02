@@ -18,11 +18,10 @@
   box-shadow: 0 0 15px 10px black;
   border-radius: 5px;
 }
-input {
+fieldset input {
   width: 100%;
 }
 .addBtn {
-  /* border: 1px black solid; */
   margin-top: 10px;
   width: 100%;
   display: flex;

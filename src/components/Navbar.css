@@ -14,7 +14,10 @@
   top: 0;
   z-index: 1;
 }
-.Navbar img {
+.Navbar a {
+  height: 100%;
+}
+.Navbar a img {
     cursor: pointer;
     transition: filter 0.3s;
 }
@@ -33,7 +36,7 @@
 .toShow {
   display: none;
 }
-.Navbar img:hover {
+.Navbar a img:hover {
     filter: drop-shadow(0 0 5px lightgray);
 }
 .Navbar button:hover {

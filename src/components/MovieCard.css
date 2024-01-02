@@ -29,12 +29,13 @@
   width: 100%;
   height: 0;
   padding: 0 15px;
+  box-sizing: border-box;
   overflow: hidden;
   transition: height 0.3s;
 }
 .releaseDate p {
   width: 12.5rem;
-  margin: 10px 0;
+  margin: 10px auto;
   text-wrap: wrap;
   text-align: center;
 }
@@ -69,4 +70,20 @@ abbr {
 }
 .card:hover {
   box-shadow: rgba(172, 172, 172, 0.55) 0px 25px 50px -12px;
+}
+@media screen and (max-width: 450px) {
+  .card{
+    width: 17rem;
+  }
+  .releaseDate {
+    background-image: linear-gradient(
+    to top,
+    #000000 0%,
+    #000000d0 90%,
+    transparent 100%
+  );
+  }
+  .releaseDate p {
+  width: 15rem;
+  }
 }

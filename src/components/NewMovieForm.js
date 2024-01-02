@@ -51,6 +51,17 @@ function NewMovieForm({ toggleShow, additionHandler, newData, setNewData }) {
               })
             }
           />
+          <label htmlFor="trailerURL">Trailer embed URL: </label>
+          <input
+            type="text"
+            id="trailerURL"
+            placeholder="https://www.youtube.com/embed/..."
+            required
+            onChange={(e) =>
+              setNewData({ ...newData, trailerURL: e.target.value })
+            }
+          />
+
           <label htmlFor="description">Description:</label>
           <textarea
             rows={5}
@@ -64,7 +75,8 @@ function NewMovieForm({ toggleShow, additionHandler, newData, setNewData }) {
                 description: e.target.value,
               })
             }
-          required/>
+            required
+          />
           <div className="addBtn">
             <button type="Submit">Add</button>
           </div>
